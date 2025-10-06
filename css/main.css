@@ -1,0 +1,142 @@
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 16px;
+}
+
+.italic {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+}
+
+.intro-text-right {
+  background-color: rgba(236,255,0,1);
+  position: absolute;
+  width: 300px;
+  bottom: 30px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.intro-text-right h2 {
+ line-height: 1.1;
+ margin: 0;
+}
+
+.intro-text-right h3 {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+}
+
+.intro-text-left p {
+  margin-bottom: 0;
+}
+
+.intro {
+  height: 90vh;
+  position: relative;
+  background-color: black;
+}
+
+.intro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.intro-text-left {
+  position: absolute;
+  width: 400px;
+  bottom: 30px;
+  left: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.intro-text-left h2 {
+  line-height: 1.1;
+}
+
+header {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid {
+  padding: 20px;
+}
+
+.grid-flex {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.grid-services {
+  background-color: rgba(236,255,0,1);
+}
+
+.third {
+  width: 32.5%;
+}
+
+.quarter {
+  width: 24.5%;
+}
+
+.grid-col img {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgba(236,255,0,1);
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.full-logo {
+  width: 100%;
+}
+
+.full-logo svg {
+  width: 100%;
+  height: auto;
+}
+
+.quote-inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote-inner h4 {
+  font-family: "Instrument Serif", serif;
+  font-size: 50px;
+}
+
+.quote-inner h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
