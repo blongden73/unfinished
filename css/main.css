@@ -140,3 +140,8 @@ header {
   font-size: 16px;
   font-weight: 400;
 }
+
+.grid-expertise .grid-col img {
+  aspect-ratio: 4/2.55;
+  object-fit: cover;
+}
