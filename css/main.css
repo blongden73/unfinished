@@ -181,6 +181,11 @@ header {
     font-size: 28px;
   }
 
+  .intro-text-right {
+    margin: 0;
+    border-radius: 0;
+  }
+
   /* Targets the main flex container and changes its direction
     from horizontal (row) to vertical (column).
   */
