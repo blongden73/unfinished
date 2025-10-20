@@ -151,3 +151,58 @@ header {
   object-fit: cover;
   object-position: right;
 }
+
+@media (max-width: 768px) {
+
+  /* Resets the absolutely positioned intro text blocks 
+    to be static, so they stack in a normal document flow.
+  */
+  .intro-text-left,
+  .intro-text-right {
+    position: static; /* Removes absolute positioning */
+    width: auto;      /* Resets fixed width */
+    max-width: 100%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin: 20px;     /* Adds spacing now that they are in-flow */
+  }
+
+  /* Adjust intro text sizes for mobile */
+  .intro-text-left {
+    font-size: 20px;
+  }
+  
+  .intro-text-left h2 {
+    font-size: 28px;
+  }
+
+  /* Targets the main flex container and changes its direction
+    from horizontal (row) to vertical (column).
+  */
+  .grid-flex {
+    flex-direction: column; /* Stacks flex items vertically */
+    row-gap: 20px;          /* Adds space between the stacked items */
+    column-gap: 0;
+  }
+
+  /* Makes all grid columns (thirds and quarters)
+    take up the full width instead of a percentage.
+  */
+  .third,
+  .quarter {
+    width: 100%; /* Each column is full-width */
+  }
+
+  /* Reduces the large quote font size for readability */
+  .quote-inner h4 {
+    font-size: 32px; /* Was 50px */
+  }
+
+  /* Reduces padding on the quote section */
+  .quote-inner {
+    max-width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
