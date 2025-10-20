@@ -145,3 +145,9 @@ header {
   aspect-ratio: 4/2.55;
   object-fit: cover;
 }
+
+.grid-services .grid-col img {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: right;
+}
