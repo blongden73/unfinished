@@ -154,6 +154,10 @@ header {
 
 @media (max-width: 768px) {
 
+  .intro {
+    height: auto;
+  }
+
   /* Resets the absolutely positioned intro text blocks 
     to be static, so they stack in a normal document flow.
   */
